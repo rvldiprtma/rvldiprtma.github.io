@@ -2,6 +2,7 @@ body {
   font-family: "Poppins";
   background-color: #0f0b00;
   color: #fffefa;
+  transition: all 0.5s;
 }
 
 .dark-mode {
@@ -12,6 +13,7 @@ body {
 .light-mode {
   background-color: #fffefa;
   color: #0d0a02;
+  transition: all 0.5s;
 }
 
 a:hover {
@@ -49,6 +51,7 @@ a:hover {
   width: 100%;
   height: 100%;
   min-height: 580px;
+  object-fit: cover;
 }
 
 .my-contact-container {
@@ -62,30 +65,78 @@ a:hover {
   line-height: 72px;
   max-width: 862px;
   margin-left: 32px;
+  -moz-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
-.my-footer {
-  border-top: 1px solid #fffefa;
-  padding: 64px 0px;
+.my-contact:hover {
+  -webkit-transform: skewX(-10deg);
+  -moz-transform: skewX(-10deg);
+  -o-transform: skewX(-10deg);
+  transform: skewX(-10deg);
 }
 
 .copy-right {
-  margin-right: 96px;
+  font-weight: 500;
   margin-bottom: 0;
 }
 
+.contact-button {
+  transition: transform 0.2s;
+}
+
+.contact-button:hover {
+  transform: scale(1.05);
+}
+
 .footer-email {
-  flex: 1;
+  font-weight: 500;
+  color: #fffefa;
 }
 
-/*a.footer-email {
-  text-decoration: none;
-  color: #FFFEFA;
+.footer-email-light {
+  font-weight: 500;
+  color: #0f0b00;
 }
 
-a.footer-email:hover {
-  color: #F3B000;
-}*/
+.footer-email:hover {
+  color: #f3b000;
+}
+
+.chat-icon {
+  width: 150px;
+  height: 150px;
+}
+
+.section-1 {
+  margin-top: 64px;
+}
+
+.divider {
+  margin: 0;
+  background-color: #fffefa;
+  opacity: 1;
+}
+
+.divider-light {
+  margin: 0;
+  background-color: #0d0a02;
+  opacity: 1;
+}
+
+.footer-follow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-container {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
 
 /**Switch CSS Start*/
 
@@ -167,3 +218,69 @@ a.footer-email:hover {
 }
 
 /**Switch CSS End*/
+
+@media screen and (max-width: 768px) {
+  .my-contact {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .chat-icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .my-contact-container {
+    padding-top: 56px;
+    padding-bottom: 46px;
+  }
+
+  #arrow {
+    width: 21px;
+    height: 13.5px;
+  }
+
+  #avatar {
+    width: 32px;
+    height: 32px;
+  }
+
+  .my-container {
+    padding-top: 74px;
+  }
+
+  .jumbotron-text {
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 0;
+  }
+
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .icon {
+    font-size: 16px;
+  }
+
+  .section-1 {
+    margin-top: 32px;
+  }
+
+  .my-square {
+    width: 100%;
+    height: 100%;
+    min-height: initial;
+  }
+
+  .label-follow {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .footer-container {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
