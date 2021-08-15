@@ -1,0 +1,160 @@
+body {
+  font-family: "Poppins";
+  background-color: #0f0b00;
+  color: #fffefa;
+}
+
+.dark-mode {
+  background-color: #0f0b00;
+  color: #fffefa !important;
+}
+
+.light-mode {
+  background-color: #fffefa;
+  color: #0d0a02;
+}
+
+a:hover {
+  color: #f3b000;
+}
+
+.my-bg-yellow {
+  background-color: #f3b000;
+}
+
+.my-txt-yellow {
+  color: #f3b000;
+}
+
+.jumbotron-text {
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 72px;
+}
+
+.my-container {
+  padding-top: 140px;
+}
+
+.icon {
+  color: #fffefa;
+  font-size: 24px;
+}
+
+.icon-light {
+  color: #0d0a02;
+}
+
+.my-square {
+  width: 100%;
+  height: 100%;
+  min-height: 580px;
+}
+
+.my-contact-container {
+  padding-top: 104px;
+  padding-bottom: 120px;
+}
+
+.my-contact {
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 72px;
+  max-width: 862px;
+  margin-left: 32px;
+}
+
+.my-footer {
+  border-top: 1px solid #fffefa;
+  padding: 64px 0px;
+}
+
+.copy-right {
+  margin-right: 96px;
+  margin-bottom: 0;
+}
+
+.footer-email {
+  flex: 1;
+}
+
+/**Switch CSS Start*/
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 130px;
+  height: 32px;
+}
+
+.switch .checkbox-switch {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.left-switch {
+  position: absolute;
+  z-index: 10;
+  top: 4px;
+  left: 15px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #f3b000;
+}
+
+.right-switch {
+  position: absolute;
+  z-index: 10;
+  top: 4px;
+  right: 15px;
+  color: #ebebeb;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  background-color: #3e3d39;
+  border-radius: 100px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 28px;
+  width: 62px;
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  background-color: #241a00;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  box-shadow: 0px 2px 8px rgba(255, 255, 255, 0.16);
+  border-radius: 100px;
+}
+
+.checkbox-switch:checked + .slider {
+  background-color: #f7f7f7;
+}
+
+.checkbox-switch:checked + .slider:before {
+  -webkit-transform: translateX(64px);
+  -ms-transform: translateX(64px);
+  transform: translateX(64px);
+  background-color: #fff8e5;
+  box-shadow: 0px 2px 8px rgba(36, 26, 0, 0.16);
+}
+
+/**Switch CSS End*/
