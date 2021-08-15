@@ -78,15 +78,14 @@ a:hover {
   flex: 1;
 }
 
-a.footer-email {
+/*a.footer-email {
   text-decoration: none;
   color: #FFFEFA;
 }
 
 a.footer-email:hover {
-  /*text-decoration: none;*/
   color: #F3B000;
-}
+}*/
 
 /**Switch CSS Start*/
 
