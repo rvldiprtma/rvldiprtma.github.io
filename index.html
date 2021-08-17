@@ -97,12 +97,26 @@
         </div>
         <!-- section 1 -->
         <div class="col-md-12 section-1">
-          <img
-            width="100%"
-            class="my-square"
-            src="images/keceh-resto.png"
-            alt="Keceh Resto"
-          />
+          <div class="overlay">
+            <img
+              width="100%"
+              class="my-square"
+              src="images/keceh-resto.png"
+              alt="Keceh Resto"
+            />
+            <div class="overlay-container">
+              <p class="overlay-title">Ketjeh Resto</p>
+              <div class="overlay-label-container">
+                <div class="overlay-label label-green">Project</div>
+                <div class="overlay-label label-blue">Mobile</div>
+                <div class="overlay-label label-purple">Mockup</div>
+              </div>
+              <a class="overlay-link" href="/"
+                >Lihat file
+                <img class="overlay-arrow" src="images/arrow-yellow.svg"
+              /></a>
+            </div>
+          </div>
         </div>
         <!-- section 2 -->
         <div class="col-md-5 mt-md-4 mt-3">
@@ -199,12 +213,12 @@
             src="images/chat-icon.png"
             alt="chat icon"
           />
-          <p class="my-contact">
+          <a href="/" class="my-contact a">
             Let’s talk about your next project
             <span>
               <img id="arrow" src="images/contact-arrow-black.svg" alt="" />
             </span>
-          </p>
+          </a>
         </div>
       </div>
     </div>
@@ -213,19 +227,19 @@
     <div class="container">
       <hr class="divider" />
       <div class="row footer-container">
-        <div class="col-md-4 d-flex justify-content-between align-items-center">
-          <p class="copy-right">&copy; 2021</p>
+        <div class="col-md-4 footer-follow">
+          <p class="copy-right label-follow">&copy; 2021</p>
           <a
-            class="footer-email"
+            class="footer-email label-follow fw-bold"
             href="mailto:privaldi75@gmail.com"
             target="_blank"
             style="text-decoration: none"
             >privaldi75@gmail.com</a
           >
         </div>
-        <div class="footer-follow offset-md-4 col-md-4 mt-4 mt-md-0">
+        <div class="footer-follow offset-md-4 col-md-4 mt-md-0">
           <p class="mb-md-0 label-follow">Follow me on :</p>
-          <div class="">
+          <div class="label-follow">
             <a
               class="me-2 icon"
               href="https://www.instagram.com/rvldiprtma/"
@@ -272,6 +286,7 @@
         $(".icon").toggleClass("icon-light");
         $(".divider").toggleClass("divider-light");
         $(".footer-email").toggleClass("footer-email-light");
+        $(".a").toggleClass("a-light");
 
         if (this.checked) {
           $("#arrow").attr("src", "images/contact-arrow-white.svg");
