@@ -140,8 +140,20 @@ a:hover {
   background-color: #2f80ed;
 }
 
+.label-lightblue {
+  background-color: #56CCF2;
+}
+
 .label-purple {
   background-color: #bb6bd9;
+}
+
+.label-red {
+  background-color: #EB5757;
+}
+
+.label-orange {
+  background-color: #F2994A;
 }
 
 .my-contact-container {
