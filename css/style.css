@@ -1,5 +1,5 @@
 body {
-  font-family: "Poppins";
+  font-family: "Manrope";
   background-color: #0f0b00;
   color: #fffefa;
   transition: all 0.5s;
@@ -29,9 +29,10 @@ a:hover {
 }
 
 .jumbotron-text {
-  font-weight: 300;
+  font-weight: 200;
   font-size: 56px;
   line-height: 72px;
+  letter-spacing: 0.04em;
 }
 
 .my-container {
@@ -92,6 +93,7 @@ a:hover {
   color: #fffefa;
   font-weight: 500;
   font-size: 32px;
+  letter-spacing: 0.02em;
   line-height: 48px;
   margin-bottom: 12px;
 }
@@ -162,9 +164,10 @@ a:hover {
 }
 
 .my-contact {
-  font-weight: 300;
+  font-weight: 200;
   font-size: 56px;
   line-height: 72px;
+  letter-spacing: 0.04em;
   max-width: 862px;
   margin-left: 32px;
   -moz-transition: all 0.2s;
@@ -212,12 +215,12 @@ a:hover {
 }
 
 .footer-email {
-  font-weight: 500;
+  font-weight: 300;
   color: #fffefa;
 }
 
 .footer-email-light {
-  font-weight: 500;
+  font-weight: 300;
   color: #0f0b00;
 }
 
