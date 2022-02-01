@@ -1,5 +1,5 @@
 body {
-  font-family: "Manrope";
+  font-family: "Poppins";
   background-color: #0f0b00;
   color: #fffefa;
   transition: all 0.5s;
@@ -36,7 +36,7 @@ a:hover {
 }
 
 .my-container {
-  padding-top: 140px;
+  padding-top: 127px;
 }
 
 .icon {
@@ -143,7 +143,7 @@ a:hover {
 }
 
 .label-lightblue {
-  background-color: #56CCF2;
+  background-color: #56ccf2;
 }
 
 .label-purple {
@@ -151,11 +151,11 @@ a:hover {
 }
 
 .label-red {
-  background-color: #EB5757;
+  background-color: #eb5757;
 }
 
 .label-orange {
-  background-color: #F2994A;
+  background-color: #f2994a;
 }
 
 .my-contact-container {
@@ -340,6 +340,301 @@ a:hover {
   box-shadow: 0px 2px 8px rgba(36, 26, 0, 0.16);
 }
 
+.title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 120px;
+  line-height: 145px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  border-top: 8px solid #fff;
+  padding-top: 15px;
+}
+
+.title-light {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 120px;
+  line-height: 145px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #1f2021;
+  border-top: 8px solid #1f2021;
+  padding-top: 15px;
+}
+
+.subtitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 34px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.subtitle-light {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 34px;
+  text-transform: uppercase;
+  color: #1f2021;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.subtitle:before,
+.subtitle:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 8px solid;
+  margin: auto;
+}
+.subtitle:before {
+  margin-right: 13px;
+}
+.subtitle:after {
+  margin-left: 13px;
+}
+
+.me-image {
+  position: relative;
+  margin-top: 71px;
+  margin-bottom: 102px;
+}
+
+.me-image img {
+  width: 100%;
+  height: auto;
+}
+
+.me-image .caption {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  color: #ffffff;
+  max-width: 515px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+}
+
+.me-image .caption-light {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  color: #1f2021 !important;
+  max-width: 515px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+}
+
+.me-image .caption p {
+  margin-bottom: 0px;
+}
+
+.me-image .caption span {
+  color: #f3b000;
+}
+
+.me-image .caption img {
+  width: 210px;
+  margin-top: 20px;
+}
+
+.subtitle-2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 18px;
+  color: #f3b000;
+}
+
+.work-experience {
+  margin-top: 32px;
+  max-width: 580px;
+}
+
+.work-experience .position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.work-experience .position-light {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #1f2021;
+  margin-bottom: 5px;
+}
+
+.work-experience .company {
+  font-style: normal;
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.work-experience .company-light {
+  font-style: normal;
+  font-size: 18px;
+  color: #1f2021;
+  margin-bottom: 5px;
+}
+
+.work-experience .period {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #73808d;
+  margin-bottom: 0;
+}
+
+.work-experience .info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #cbcbcb;
+}
+
+.work-experience .info-light {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #434343;
+}
+
+.skill {
+  margin-top: 20px;
+  border-bottom: 1px solid #ffffff80;
+  padding-bottom: 20px;
+}
+
+.skill-light {
+  margin-top: 20px;
+  border-bottom: 1px solid #1f202180;
+  padding-bottom: 20px;
+}
+
+.skill .skill-name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #cbcbcb;
+}
+
+.skill .skill-name-light {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #545454;
+}
+
+.skill .skill-info {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 0px;
+}
+
+.skill a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.skill-light a {
+  color: #1f2021;
+  text-decoration: none;
+}
+
+.subtitle-1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 34px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.subtitle-1:before,
+.subtitle-1:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 4px solid;
+  margin: auto;
+}
+.subtitle-1:before {
+  margin-right: 24px;
+}
+.subtitle-1:after {
+  margin-left: 24px;
+}
+
+.subtitle-1-light {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 34px;
+  text-transform: uppercase;
+  color: #1f2021;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.first-experience {
+  margin-top: 80px;
+}
+
+.project-experience {
+  margin-top: 88px;
+}
+
+.portfolio {
+  margin-top: 98px;
+}
+
+#powered {
+  text-align: center;
+  font-size: 12px;
+  background-color: #000;
+  padding: 5px;
+  display: none;
+  color: #fff;
+}
+
+#powered a {
+  color: #fff;
+}
+
 /**Switch CSS End*/
 
 @media screen and (max-width: 768px) {
@@ -369,7 +664,7 @@ a:hover {
   }
 
   .my-container {
-    padding-top: 74px;
+    padding-top: 40px;
   }
 
   .jumbotron-text {
@@ -450,5 +745,126 @@ a:hover {
     margin-left: 5px;
     margin-top: -2px;
     width: 14px;
+  }
+
+  .title {
+    font-size: 35px;
+    line-height: 42px;
+    border-top: 2px solid #fff;
+    padding-top: 6px;
+    margin-bottom: -3px;
+  }
+
+  .title-light {
+    font-size: 35px;
+    line-height: 42px;
+    border-top: 2px solid #1f2021;
+    padding-top: 6px;
+    margin-bottom: -3px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .subtitle:before,
+  .subtitle:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid;
+    margin: auto;
+  }
+  .subtitle:before {
+    margin-right: 8px;
+  }
+  .subtitle:after {
+    margin-left: 8px;
+  }
+
+  .me-image {
+    margin-top: 34px;
+    margin-bottom: 0px;
+  }
+
+  .me-image .caption {
+    position: relative;
+    font-size: 28px;
+    line-height: 36px;
+    top: 0;
+    left: 0;
+    margin-top: 40px;
+    margin-bottom: 72px;
+  }
+
+  .me-image .caption img {
+    width: 118px;
+    margin-top: 25px;
+    margin-left: 10px;
+  }
+
+  .reverse-mobile {
+    flex-direction: column-reverse;
+  }
+
+  .reverse-mobile .work-container {
+    margin-top: 56px;
+  }
+
+  .subtitle-2 {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+
+  .work-experience {
+    margin-top: 16px;
+  }
+
+  .work-experience .position,
+  .work-experience .info {
+    font-size: 16px;
+  }
+
+  .work-experience .company,
+  .work-experience .period {
+    font-size: 14px;
+  }
+
+  .skill {
+    padding-bottom: 12px;
+  }
+
+  .skill .skill-name {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .skill .skill-info {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .subtitle-1 {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .subtitle-1:before,
+  .subtitle-1:after {
+    border-bottom: 2px solid;
+  }
+
+  .subtitle-1:before {
+    margin-right: 8px;
+  }
+  .subtitle-1:after {
+    margin-left: 8px;
+  }
+
+  .first-experience {
+    margin-top: 34px;
+  }
+
+  .project-experience {
+    margin-top: 82px;
   }
 }
