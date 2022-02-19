@@ -11,18 +11,6 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/> -->
-
-    <!-- Font Link -->
-
-    <!-- IBM  -->
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@200;300&display=swap" rel="stylesheet"> -->
-
     <!-- Manrope -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -39,8 +27,6 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
     />
     <link rel="stylesheet" href="css/style.css" />
-
-    <!-- Add of Rivaldi -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png" />
     <link
       rel="stylesheet"
@@ -82,18 +68,10 @@
     <div class="container my-container">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="title">RIVALDI PRATAMA</h1>
-          <h2 class="subtitle">UI DESIGNER</h2>
+          <img src="images/title-white.svg" id="title" alt="title" />
         </div>
         <div class="col-md-12 me-image">
-          <img src="images/picture.png" alt="me" />
-          <div class="caption">
-            <p>
-              “Don't let people to avoid using the apps just
-              <span>based on the appearance</span>”
-            </p>
-            <img src="images/signature.png" id="signature" alt="signature" />
-          </div>
+          <img src="images/quote.png" alt="quote" />
         </div>
         <div class="col-md-12">
           <div class="row reverse-mobile">
@@ -574,7 +552,7 @@
       </div>
     </div>
     <div id="powered" tabindex="-1">
-      Powered <a href="https://bmf10.github.io" id="powered-link">BmF10</a>
+      Powered By <a href="https://bmf10.github.io" id="powered-link">BmF10</a>
     </div>
   </footer>
   <script
@@ -595,8 +573,6 @@
         $(".divider").toggleClass("divider-light");
         $(".footer-email").toggleClass("footer-email-light");
         $(".a").toggleClass("a-light");
-        $(".title").toggleClass("title-light");
-        $(".subtitle").toggleClass("subtitle-light");
         $(".position").toggleClass("position-light");
         $(".company").toggleClass("company-light");
         $(".info").toggleClass("info-light");
@@ -609,19 +585,15 @@
         }
 
         if (this.checked) {
-          if ($(window).width() <= 768) {
-            $("#signature").attr("src", "images/signature-light.png");
-          }
           $("#arrow").attr("src", "images/contact-arrow-white.svg");
           $("#label-left").css("color", "#939393");
           $("#label-right").css("color", "#F3B000");
+          $("#title").attr("src", "images/title-black.svg");
         } else {
-          if ($(window).width() <= 768) {
-            $("#signature").attr("src", "images/signature.png");
-          }
           $("#arrow").attr("src", "images/contact-arrow-black.svg");
           $("#label-left").css("color", "#f3b000");
           $("#label-right").css("color", "#ebebeb");
+          $("#title").attr("src", "images/title-white.svg");
         }
       });
 

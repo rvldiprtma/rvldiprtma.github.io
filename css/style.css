@@ -340,72 +340,6 @@ a:hover {
   box-shadow: 0px 2px 8px rgba(36, 26, 0, 0.16);
 }
 
-.title {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 120px;
-  line-height: 145px;
-  text-transform: uppercase;
-  text-align: center;
-  color: #ffffff;
-  border-top: 8px solid #fff;
-  padding-top: 15px;
-}
-
-.title-light {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 120px;
-  line-height: 145px;
-  text-transform: uppercase;
-  text-align: center;
-  color: #1f2021;
-  border-top: 8px solid #1f2021;
-  padding-top: 15px;
-}
-
-.subtitle {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 28px;
-  line-height: 34px;
-  text-transform: uppercase;
-  color: #ffffff;
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-}
-
-.subtitle-light {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 28px;
-  line-height: 34px;
-  text-transform: uppercase;
-  color: #1f2021;
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-}
-
-.subtitle:before,
-.subtitle:after {
-  content: "";
-  flex: 1 1;
-  border-bottom: 8px solid;
-  margin: auto;
-}
-.subtitle:before {
-  margin-right: 13px;
-}
-.subtitle:after {
-  margin-left: 13px;
-}
-
 .me-image {
   position: relative;
   margin-top: 71px;
@@ -415,45 +349,6 @@ a:hover {
 .me-image img {
   width: 100%;
   height: auto;
-}
-
-.me-image .caption {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 60px;
-  color: #ffffff;
-  max-width: 515px;
-  position: absolute;
-  top: 20%;
-  left: 50%;
-}
-
-.me-image .caption-light {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 60px;
-  color: #1f2021 !important;
-  max-width: 515px;
-  position: absolute;
-  top: 20%;
-  left: 50%;
-}
-
-.me-image .caption p {
-  margin-bottom: 0px;
-}
-
-.me-image .caption span {
-  color: #f3b000;
-}
-
-.me-image .caption img {
-  width: 210px;
-  margin-top: 20px;
 }
 
 .subtitle-2 {
@@ -635,6 +530,11 @@ a:hover {
   color: #fff;
 }
 
+#title {
+  width: 100%;
+  height: auto;
+}
+
 /**Switch CSS End*/
 
 @media screen and (max-width: 768px) {
@@ -783,23 +683,7 @@ a:hover {
 
   .me-image {
     margin-top: 34px;
-    margin-bottom: 0px;
-  }
-
-  .me-image .caption {
-    position: relative;
-    font-size: 28px;
-    line-height: 36px;
-    top: 0;
-    left: 0;
-    margin-top: 40px;
-    margin-bottom: 72px;
-  }
-
-  .me-image .caption img {
-    width: 118px;
-    margin-top: 25px;
-    margin-left: 10px;
+    margin-bottom: 40px;
   }
 
   .reverse-mobile {
